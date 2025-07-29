@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sliders_home_sliders",
+  "info": {
+    "displayName": "Home Slider",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sliderimage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

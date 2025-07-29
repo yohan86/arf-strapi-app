@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_vision_visions",
+  "info": {
+    "displayName": "vision",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Slideroptions": {
+      "displayName": "Home Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.home-slider"
+    }
+  }
+}
