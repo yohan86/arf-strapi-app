@@ -8,6 +8,7 @@ module.exports = [
         directives: {
           'img-src': ["'self'", 'data:', 'blob:', 'https://arf-strapi-app.onrender.com'],
           'media-src': ["'self'", 'data:', 'blob:', 'https://arf-strapi-app.onrender.com'],
+          'connect-src': ["'self'", 'https:', 'http:'],
           upgradeInsecureRequests: null,
         },
       },
@@ -18,6 +19,7 @@ module.exports = [
     config: {
       enabled: true,
       origin: [
+        'http://localhost:5173',
         'https://yohan86.github.io',
         'https://arf-strapi-app.onrender.com',
       ],
